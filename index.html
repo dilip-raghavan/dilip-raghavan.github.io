@@ -19,6 +19,37 @@
     kbd.email{font-size: 17px;}
     </style>
     
+    <style>
+    .blink_text
+{
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+    color: red;
+}
+
+@-moz-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+ }
+    </style>
+    
     <base target="_blank">
 </head>
 
@@ -27,21 +58,23 @@
 <div id="main-header">
 <h2>Dilip Raghavan</h2>
 <hr>
+<b><font size="+1" style="color:red;">I am spending the 2021/22 academic year in North America.</font></b>
 <table style="width:100%" cellpadding="10" cellspacing="30">
 
-<td>
+<td style="white-space:nowrap">
 <address>
 <font size="+1">
-<b>Office location</b>: S17-07-15<br>
+<b>Office location</b>: 330 Fields Institute<br>
 <br>
 <b>Mailing Address</b>:<br>
-Department of Mathematics <br>
-National University of Singapore <br>
-10 Lower Kent Ridge Road <br>
-Singapore, 119076 <br>
+The Fields Institute <br>
+222 College Street <br>
+Toronto, ON M5T 3J1 <br>
+Canada <br>
 </td>
 <td style="white-space:nowrap">
 <font size="+1">
+<br>
 <b>Email Addresses</b>:<br>
 <span class="email"> <kbd class="email">dilip dot raghavan at protonmail dot com</kbd> </span><br>
 <span class="email"> <kbd class="email">matrd at nus dot edu dot sg</kbd> </span><br>
@@ -71,7 +104,7 @@ Singapore, 119076 <br>
 </li>
 <li><a href="Papers/nostronglyseparable.pdf"><font face="Comic Sans MS" size="3px">A model with no strongly separable almost disjoint families</font></a>, <b>Israel J. Math.</b>, vol. 189 (2012), no. 1, 39--53.	
 </li>
-<li>(with <a href="http://www.math.yorku.ca/~steprans/" style="color:#28c91d;">J. Steprāns</a>) <a href="Papers/weaklytightreprint.pdf"><font face="Comic Sans MS" size="3px">On weakly tight families</font></a>, <b>Canad. J. Math.</b>, vol. 64 (2012), no. 6, 1378--1394.	
+<li>(with <a href="https://steprans.info.yorku.ca/" style="color:#28c91d;">J. Steprāns</a>) <a href="Papers/weaklytightreprint.pdf"><font face="Comic Sans MS" size="3px">On weakly tight families</font></a>, <b>Canad. J. Math.</b>, vol. 64 (2012), no. 6, 1378--1394.	
 </li>	
 <li>(with <a href="http://www.math.toronto.edu/stevo/" style="color:#28c91d;">S. Todorcevic</a>) <a href="Papers/tukey.pdf"><font face="Comic Sans MS" size="3px">Cofinal types of ultrafilters</font></a>, <b>Ann. Pure Appl. Logic</b>, vol. 163 (2012), no. 3, 185--199.	
 </li>
@@ -81,7 +114,7 @@ Singapore, 119076 <br>
 </li>
 <li>(with <a href="https://wwp.shizuoka.ac.jp/yorioka/" style="color:#28c91d;">T. Yorioka</a>) <a href="Papers/suslinlattices.pdf"><font face="Comic Sans MS" size="3px">Suslin lattices</font></a>, <b>Order</b>, vol. 31 (2014), no. 1, 55--79.	
 </li>
-<li>(with <a href="http://home.mathematik.uni-freiburg.de/mildenberger/" style="color:#28c91d;">H. Mildenberger</a> and <a href="http://www.math.yorku.ca/~steprans/" style="color:#28c91d;">J. Steprāns</a>) <a href="Papers/case2.pdf"><font face="Comic Sans MS" size="3px">Splitting families and complete separability</font></a>, <b>Canad. Math. Bull.</b>, vol. 57 (2014), no. 1, 119--124.
+<li>(with <a href="http://home.mathematik.uni-freiburg.de/mildenberger/" style="color:#28c91d;">H. Mildenberger</a> and <a href="https://steprans.info.yorku.ca/" style="color:#28c91d;">J. Steprāns</a>) <a href="Papers/case2.pdf"><font face="Comic Sans MS" size="3px">Splitting families and complete separability</font></a>, <b>Canad. Math. Bull.</b>, vol. 57 (2014), no. 1, 119--124.
 </li>
 <li>(with <a href="https://kuid-rm-web.ofc.kobe-u.ac.jp/profile/en.85c70410014ee138520e17560c007669.html" style="color:#28c91d;">J. Brendle</a>) <a href="Papers/bsajoerg.pdf"><font face="Comic Sans MS" size="3px">Bounding, splitting, and almost disjointness</font></a>, <b>Ann. Pure Appl. Logic</b>, vol. 165 (2014), no. 2, 631--651.
 </li>
@@ -111,28 +144,35 @@ Singapore, 119076 <br>
 </li>
 <li>(with <a href="https://dblp.org/pers/hd/h/Higuchi:Kojiro" style="color:#28c91d;">K. Higuchi</a>, <a href="https://www.math.wisc.edu/~lempp/" style="color:#28c91d;">S. Lempp</a>, and <a href="https://www.comp.nus.edu.sg/~fstephan/" style="color:#28c91d;">F. Stephan</a>) <a href="Papers/poset-dim-pre.pdf"><font face="Comic Sans MS" size="3px">On the order dimension of locally countable partial orderings</font></a>, <b>Proc. Amer. Math. Soc.</b>, vol. 148 (2020), no. 7, 2823--2833.
 </li>
-<li>(with <a href="http://home.iitk.ac.in/~krashu/" style="color:#28c91d;">A. Kumar</a>) <a href="Papers/order-dim.pdf"><font face="Comic Sans MS" size="3px">Separating families and order dimension of Turing degrees</font></a>, <b>Ann. Pure Appl. Logic</b> (special issue marking the 50<sup>th</sup> Anniversary of the Toronto Set Theory Seminar), to appear.
+<li>(with <a href="http://www.math.toronto.edu/stevo/" style="color:#28c91d;">S. Todorcevic</a>) <a href="Papers/galvin-reprint.pdf"><font face="Comic Sans MS" size="3px">Proof of a conjecture of Galvin</font></a>, <b>Forum of Mathematics, Pi</b>, vol. 8 (2020), E15, 1--23.
 </li>
-<li>(with <a href="http://www.math.toronto.edu/stevo/" style="color:#28c91d;">S. Todorcevic</a>) <a href="Papers/galvin-reprint.pdf"><font face="Comic Sans MS" size="3px">Proof of a conjecture of Galvin</font></a>, <b>Forum of Mathematics, Pi</b>, to appear.
+<li>(with <a href="http://home.iitk.ac.in/~krashu/" style="color:#28c91d;">A. Kumar</a>) <a href="Papers/order-dim.pdf"><font face="Comic Sans MS" size="3px">Separating families and order dimension of Turing degrees</font></a>, <b>Ann. Pure Appl. Logic</b> (special issue marking the 50<sup>th</sup> Anniversary of the Toronto Set Theory Seminar), vol. 172 (2021), no. 5, 102911, 20 pp.
+</li>
+<li>(with <a href="https://steprans.info.yorku.ca/" style="color:#28c91d;">J. Steprāns</a>) <a href="Papers/main.pdf"><font face="Comic Sans MS" size="3px">The almost disjointness invariant for products of ideals</font></a>, submitted.
+</li>
+<li>(with <a href="http://home.iitk.ac.in/~krashu/" style="color:#28c91d;">A. Kumar</a>) <a href="Papers/Supersaturated-ideals.pdf"><font face="Comic Sans MS" size="3px">Supersaturated ideals</font></a>, submitted.
 </li>
 <li>(with <a href="https://robinsoncenter.uw.edu/staff/reese-johnston-2/" style="color:#28c91d;">R. Johnston</a>) <a href="Papers/reese_dilip_jsl.pdf"><font face="Comic Sans MS" size="3px">Complexity of index sets of descriptive set-theoretic notions</font></a>, submitted.
 </li>
+<li>(with <a href="http://www.math.toronto.edu/stevo/" style="color:#28c91d;">S. Todorcevic</a>) <font face="Comic Sans MS" size="3px">Galvin’s problem in higher dimensions</font>, in preparation.
+</li>
 <li>(with <a href="https://kuid-rm-web.ofc.kobe-u.ac.jp/profile/en.85c70410014ee138520e17560c007669.html" style="color:#28c91d;">J. Brendle</a>, <a href="https://scholar.google.com.mx/citations?user=OOjFAMkAAAAJ&hl=en" style="color:#28c91d;">O. Guzmán</a>, and <a href="http://www.matmor.unam.mx/~michael/" style="color:#28c91d;">M. Hrušák</a>) <font face="Comic Sans MS" size="3px">Combinatorial properties of MAD families</font>, in preparation.
 </li>
-<li>(with <a href="http://www.math.yorku.ca/~steprans/" style="color:#28c91d;">J. Steprāns</a>) <font face="Comic Sans MS" size="3px">The almost disjointness number in higher dimensions</font>, in preparation.
+<li>(with <a href="https://arxiv.org/abs/2107.04250" style="color:#28c91d;">M. Xiao</a>) <font face="Comic Sans MS" size="3px">Borel order dimension</font>, in preparation.
+</li>
+<li>(with <a href="http://www.users.miamioh.edu/larsonpb/" style="color:#28c91d;">P. B. Larson</a>) <font face="Comic Sans MS" size="3px">A combinatorial property of ultrafilters in L(R)[U]</font>, in preparation.
 </li>
 <li>(with <a href="http://shelah.logic.at/" style="color:#28c91d;">S. Shelah</a>) <font face="Comic Sans MS" size="3px">On the reaping number at the first Mahlo cardinal</font>, in preparation.
 </li>
-<li>(with <a href="http://www.math.toronto.edu/stevo/" style="color:#28c91d;">S. Todorcevic</a>) <font face="Comic Sans MS" size="3px">Galvin’s problem in higher dimensions</font>, in preparation.
-</li>
 <li>(with <a href="http://shelah.logic.at/" style="color:#28c91d;">S. Shelah</a>) <font face="Comic Sans MS" size="3px">Boolean ultrapowers and iterated forcing</font>, in preparation.
 </li>
-<li>(with <a href="http://people.dmi.uns.ac.rs/~borisha/" style="color:#28c91d;">B. Kuzeljevic</a> and <a href="http://jonathan.temno.eu/" style="color:#28c91d;">J. Verner</a>) <font face="Comic Sans MS" size="3px">Lower and upper bounds of sets of P-points</font>, in preparation.
-</li>
+<!---<li>(with <a href="http://people.dmi.uns.ac.rs/~borisha/" style="color:#28c91d;">B. Kuzeljevic</a> and <a href="http://jonathan.temno.eu/" style="color:#28c91d;">J. Verner</a>) <font face="Comic Sans MS" size="3px">Lower and upper bounds of sets of P-points</font>, in preparation.
+</li>--->
 </ol>
 
 <h2>Upcoming and Recent Talks</h2>
 <ul>
+<li>I gave a talk at <a href="https://beaadamday.com/index.php/models-and-sets/"><font face="Comic Sans MS" size="3px">The Leeds university Models and Sets seminar series</font></a>,  University of Leeds, Leeds, UK.</li>
 <li>I gave a <a href="https://lc2019.cz/invited" style="color:#28c91d;">two hour tutorial</a> at <a href="https://lc2019.cz/"><font face="Comic Sans MS" size="3px">The Logic Colloquium 2019</font></a>, Prague, Czech Republic.</li>
 <li>I gave a <a href="https://www.birs.ca/events/2019/5-day-workshops/19w5064/videos" style="color:#28c91d;">two hour tutorial</a> at <a href="https://www.birs.ca/events/2019/5-day-workshops/19w5064"><font face="Comic Sans MS" size="3px">The 2019 Workshop on Set theory of the Reals</font></a>, Casa Matemática Oaxaca, CMO-BIRS, Oaxaca, México.</li>
 <li>I gave a talk at <a href="http://www.xlconferences.co.za/topology/"><font face="Comic Sans MS" size="3px">The 34<sup>th</sup> Summer Conference on Topology and its Applications</font></a>, University of the Witwatersrand, Johannesburg, Gauteng, South Africa.</li>
